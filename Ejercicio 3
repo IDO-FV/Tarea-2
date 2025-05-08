@@ -4,7 +4,12 @@
 
 void main ()
 {
-    int a;
+    int a, b;
     
-    printf ("ingrese un numero   ");
+    printf ("ingrese un monto de dolares");
     scanf ("%i", &a);
+
+    b = a * 11.96;
+
+    printf("la cantidad en pesos es de %.2f\n", b);
+}
