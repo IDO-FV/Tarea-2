@@ -1,0 +1,10 @@
+//franco vazquez ian
+
+#include <stdio.h>
+
+void main ()
+{
+    int a;
+    
+    printf ("ingrese un numero   ");
+    scanf ("%i", &a);
