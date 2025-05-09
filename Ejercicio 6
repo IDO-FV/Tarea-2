@@ -1,0 +1,20 @@
+//franco vazquez ian
+
+#include <stdio.h>
+
+void main() {
+    float sueldo, aumento;
+
+    printf("Cuanto es el sueldo del trabajador?: ");
+    scanf("%f", &sueldo);
+
+    if (sueldo < 1000) {
+        aumento = sueldo * 0.15;
+    } else {
+        aumento = sueldo * 0.12;
+    }
+
+    sueldo = sueldo + aumento;
+
+    printf("El nuevo sueldo es de: %.2f\n", sueldo);
+}
