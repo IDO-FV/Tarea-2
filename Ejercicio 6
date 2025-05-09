@@ -1,0 +1,25 @@
+//franco vazquez ian
+
+#include <stdio.h>
+
+void main ()
+{
+    float km, dias, precio;
+    
+    printf ("Indique en kilometros la distancia de ida: ");
+    scanf ("%f", &km);
+    
+    printf ("Indique el numero de dias de estancia: ");
+    scanf ("%f", &dias);
+    
+    km = km * 2;
+    precio = km * 0.23;
+    
+    if (dias > 7 && km > 800)
+    {
+        precio = precio * 0.7;
+    }
+    
+    printf("El precio del ticket es: $%.2f\n", precio);
+    
+}
