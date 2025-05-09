@@ -6,10 +6,10 @@ void main ()
 {
     float km, dias, precio;
     
-    printf ("Indique en kilometros la distancia de ida: ");
+    printf ("Cual es la distancia en km de ida: ");
     scanf ("%f", &km);
     
-    printf ("Indique el numero de dias de estancia: ");
+    printf ("Cual es el tiempo de estancia en dias?: ");
     scanf ("%f", &dias);
     
     km = km * 2;
