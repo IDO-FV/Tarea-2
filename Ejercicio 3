@@ -4,12 +4,12 @@
 
 void main ()
 {
-    int a, b;
+    float dolares, pesos;
     
-    printf ("ingrese un monto de dolares");
-    scanf ("%i", &a);
+    printf ("ingrese un monto de dolares\n");
+    scanf ("%f", &dolares);
 
-    b = a * 11.96;
+    pesos = dolares * 11.96;
 
-    printf("la cantidad en pesos es de %.2f\n", b);
+    printf("la cantidad en pesos es de %.2f\n", pesos);
 }
