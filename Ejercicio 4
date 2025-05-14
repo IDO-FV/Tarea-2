@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-void main() {
+void main()
+{
     float dinero, interes, final;
 
     printf("Cuanto es el dinero disponible?: ");
