@@ -1,0 +1,17 @@
+//Franco Vazquez Ian Javier
+
+#include <stdio.h>
+
+void main() {
+    float dinero, interes, final;
+
+    printf("Cuanto es el dinero disponible?: ");
+    scanf("%f", &dinero);
+
+    printf("Cual es la taza de intereses mensual? (en %%): ");
+    scanf("%f", &interes);
+
+    final = dinero + (dinero * interes / 100);
+
+    printf("Al finalizar el mes, se contara con: %.2f\n", final);
+}
