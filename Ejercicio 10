@@ -1,0 +1,25 @@
+//franco vazquez ian javier
+
+#include <stdio.h>
+
+void main() {
+    int n, i, x, pos = 0, neg = 0, null = 0;
+
+    printf("Introduce 100 números:\n");
+
+    for (i = 0; i < 100; i++) {
+        printf("N° %d: ", i + 1);
+        scanf("%d", &x);
+
+        if (x > 0)
+            pos++;
+        else if (x < 0)
+            neg++;
+        else
+            null++;
+    }
+
+    printf("Positivos: %d\n", pos);
+    printf("Negativos: %d\n", neg);
+    printf("Nulos: %d\n", null);
+}
