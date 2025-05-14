@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-void main() {
+void main() 
+{
     int a, b, sum, res, mult;
     
     printf("Cual es el primer número?:");
