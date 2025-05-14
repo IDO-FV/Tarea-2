@@ -1,0 +1,30 @@
+//franco vazquez ian javier
+
+#include <stdio.h>
+
+void main() 
+{
+    float a, b, c;
+    
+    printf("Total de la compra:");
+    scanf("%f", &a);
+
+    
+    if (a > 2500) 
+    {
+      
+        b = a * 0.08;
+      
+        c = a - b;
+        
+        printf("Precio total: $%.2f\n", c);
+    } 
+    else 
+    {
+      
+        c = a;
+        
+        printf("Precio total: $%.2f\n", c);
+    }
+    
+}
