@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-void main() {
+void main() 
+{
     float sueldo, aumento;
 
     printf("Cuanto es el sueldo del trabajador?: ");
