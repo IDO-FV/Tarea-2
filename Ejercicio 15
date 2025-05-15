@@ -1,0 +1,30 @@
+//Franco Vazquez Ian Javier
+
+#include <stdio.h>
+
+void main() 
+{
+    int a[] = {3, -1, 0, 7, -5, 0, 2, -8};
+    int b = sizeof(a) / sizeof(a[0]);
+    int c = 0, d = 0, e = 0;  
+
+    for (int f = 0; f < b; f++) 
+    {
+        if (a[f] > 0) 
+        {
+            c++;
+        } 
+        else if (a[f] < 0) 
+        {
+            d++;
+        } 
+        else 
+        {
+            e++;
+        }
+    }
+
+    printf("positivos: %d\n", c);
+    printf("negativos: %d\n", d);
+    printf("ceros: %d\n", e);
+}
