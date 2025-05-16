@@ -1,0 +1,17 @@
+//Franco Vazquez Ian Javier 
+
+#include <stdio.h>
+
+void main() {
+    int a = 0;
+
+    printf("Los primeros 100 números pares son:\n");
+
+    while (a < 100) 
+    {
+        printf("%d ", a * 2);
+        a++;
+    }
+
+    printf("\n");
+}
